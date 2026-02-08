@@ -96,7 +96,7 @@ if st.button("Predict Risk"):
     }
 
     response = requests.post(
-        "https://credit-risk-scoring-system-5k5d.onrender.com/",
+        "https://credit-risk-scoring-system-5k5d.onrender.com/predict",
         json=payload
     )
 
@@ -117,6 +117,7 @@ if st.button("Predict Risk"):
 
     else:
         st.error("API Error")
+
 
 
 
