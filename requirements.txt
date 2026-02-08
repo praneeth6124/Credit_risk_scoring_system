@@ -8,6 +8,8 @@ uvicorn
 joblib
 python-multipart
 pandas
+streamlit
+
 
 
 
