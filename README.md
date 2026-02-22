@@ -1,4 +1,4 @@
-# Credit Risk Prediction System
+# Credit Risk Scoring System
 
 An end-to-end machine learning system that predicts customer default risk and translates it into real-world lending decisions with explainability.
 
