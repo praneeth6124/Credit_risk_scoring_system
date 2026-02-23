@@ -70,7 +70,9 @@ def credit_decision(p):
 def home():
     return {"message": "Credit Risk API Running"}
 
-
+@app.get("/ping")
+def ping():
+  return {"status": "alive"}
 
 @app.post("/predict")
 def predict(applicant: Applicant):
@@ -90,5 +92,6 @@ def predict(applicant: Applicant):
         "default_probability": round(float(prob_default), 3),
         "decision": decision
     }
+
 
 
